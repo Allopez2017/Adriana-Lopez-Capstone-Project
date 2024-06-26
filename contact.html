@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Wildlife Conservation Society Contact">
+  <meta name="keywords" content="HTML, CSS, JS">
+  <meta name="author" content="AKC">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="contact.css"/>
+ <script defer src="contact.js"></script>
+ <title>WCS Contact</title>
+</head>
+
+<nav>
+    <img src="WCS.png" id="top-page-logo" alt="WCS Logo" />
+<A href="home.html"class="nav-links">Home</A>
+<A href="about.html" class="nav-links">About  WCS</A>
+<A href="socials.html" class="nav-links">Socials</A>
+<A href="contact.html" class="nav-links">Contact Us</A>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="address-details">
+                 <ion-icon class="address" name="home-sharp"></ion-icon>
+                    <div class="topic">Address</div>
+                    <div class="text-one">2300 Southern Boulevard Bronx</div>
+                    <div class="text-two">New York 10460</div>
+                    </div>
+                    <div class="phone-details">
+                <ion-icon name="call-sharp"></ion-icon>
+                    <div class="topic">Phone Number</div>
+                    <div class="text-one">+(718) 220-5100</div>
+                    </div>
+                    <div class="email-details">
+                <ion-icon name="mail"></ion-icon>
+                    <div class="topic">Email</div>
+                    <div class="text-one">Membership@wcs.org</div>
+                    </div>
+            </div>
+            <div class="right">
+                <div class="topic-right">Send Us a Message</div>
+                <p>For all other inquires please feel free to contact us directly.</p>
+                <div id="error"></div>
+                <form id="form" action="" method="GET">
+                <div class="input-box">
+                <input type="text" id="name" name="name" placeholder='Enter Your First and Last Name'/>
+                </div>
+                <div class="input-box">
+                <input type="email" id="email" name="email" placeholder='Enter Your Email Address' />
+                </div>
+                <div class="input-message-box">
+                <textarea id="message" placeholder='Enter Your Message'></textarea>
+                </div>
+                <div class="button">
+                <input id="submit" type="submit" value="Send Message" />
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <footer>
+            <p>©2024 Wildlife Conservation Society</p>
+        </footer>
+
+
+<!--This is the code that allows the icons to be display/funtion
+    Here is the website to see directly: "https://ionic.io/ionicons"-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
